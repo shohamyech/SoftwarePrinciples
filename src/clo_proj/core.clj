@@ -61,7 +61,8 @@
      (filter #(.isFile %))
      (map str)
      (map #(re-find #"\w*.vm$" %))
-     (remove nil?)))
+     (remove nil?)
+     (map #(str/replace % #".vm$" ""))))
 
 (->> (io/file path)                      ;get folder file obj
      (file-seq)                          ;get all files from folder
