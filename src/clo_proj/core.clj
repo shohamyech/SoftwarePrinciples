@@ -7,8 +7,10 @@
 ;Jacob Fredman 037982519
 ;Group 150060.01.5782.48
 ;To run the code:
+;If not installed install java jdk https://www.oracle.com/java/technologies/downloads/
 ;Open terminal in project folder 
-;Run "./lein run"
+;Run ".\lein self-install"
+;Run ".\lein run
 
 (def total-buy  0)
 (def total-sell 0)
