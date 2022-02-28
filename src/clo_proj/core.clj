@@ -3,6 +3,13 @@
   (:require [clojure.java.io :as io])
   (:gen-class))
 
+;Shoham Yechezkely 314855503
+;Jacob Fredman 037982519
+;Group 150060.01.5782.48
+;To run the code:
+;Open terminal in project folder 
+;Run "./lein run"
+
 (def total-buy  0)
 (def total-sell 0)
 
